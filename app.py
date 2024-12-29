@@ -14,7 +14,7 @@ CORS(app, resources={
     r"/chat": {
         "origins": [
             "http://localhost:3000",
-            "https://stocker-ai.vercel.app/",
+            "https://stocker-ai.vercel.app",
         ],
         "methods": ["POST", "OPTIONS"],
         "allow_headers": ["Content-Type"],
